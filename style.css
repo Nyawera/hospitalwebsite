@@ -1,0 +1,489 @@
+
+
+body{
+    background-color: #E9FAFC;
+overflow-x: hidden;
+   
+}
+
+.navbar {
+    overflow: hidden;
+    /* background-color: #333; */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+  }
+  
+  
+  .navbar a {
+    float: right;
+    display: block;
+    color: #131212;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.chemist h4{
+    color: orange;
+    margin:15% 0 0 3%;
+    width: 20%;
+}
+.chemist h1{
+    margin: 3% 0 0 3%;
+    font-size: 30px;
+    width: 50%;
+    
+}
+.chemist p{
+    margin: 3% 0 0 3%;
+    color: rgba(122, 48, 172, 0.795);
+   font-size: 10px;
+    width: 25%;
+}
+.press{
+    margin: 5% 2% 0 3%;
+    background-color: #42A1AB;
+    width: 10%;
+    padding: 1%;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+}
+.chemist i{
+    color: #42A1AB;
+   background-color: #d7f5f8;
+   padding: 15px;
+   border-radius: 150%;
+   box-shadow: #42A1AB;
+}
+.image{
+    border-radius: 100%;
+    width: 3%;
+    float: right;
+    margin: -40% 32% 0 0;
+    padding: 3% 16%;
+    z-index: 10;
+    margin-bottom: -5%;
+    padding-top: 5%;
+    height: 10%;
+
+   
+    
+}
+.image img{
+    border: 85px solid #CFE4E7;
+    margin:30%;
+    border-radius: 50%;
+    height: 400px;
+   
+}
+.icons{
+    height: 10%;
+    width: 10%;
+}
+
+.rows{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-left: 30%;
+    margin-bottom: 1%;
+    background-color: #fafdfd;
+}
+.spann{
+    font-size: 10%;
+    background-color: #CFE4E7;
+}
+
+.part1{
+    display: flex;
+    margin:0 0 0 -35%;
+    gap:8rem;
+   
+    padding: 5px 70px;
+    justify-content: space-evenly;
+}
+.sec2{
+    background: #e0e3e4;
+}
+.radio{
+    margin-left: 11%;
+    background: #E9FAFC;
+    width: 15%;
+    height: 40%;
+    padding: 2%;
+}
+.Ambulance{
+    margin:0 0 0 10%;
+    background: rgb(231, 226, 215);
+    width: 15%;
+    height: 30%;
+    padding: 2%;
+
+}
+.Dentalcare{
+    margin-left: 12%;
+    background: #F7FEFF;
+    width: 15%;
+    height: 40%;
+    padding: 2%;
+}
+.part2{
+    display: flex;
+    flex-direction:flex-start;
+    
+}
+.petservice{
+    margin-left: 10%;
+    background: white;
+    width: 15%;
+    min-height: 40%;
+    padding: 2%;
+}
+.parturition{
+    margin-left: 13%;
+    background: whitesmoke;
+    width: 15%;
+    margin-top: 2%;
+    padding: 2%;
+    margin-right: -1%;
+}
+
+
+.profile__image{
+background-color: #CFE4E7;
+margin: 8% 0 0 8%;
+width: 32%;
+border-radius: 3%;
+}
+.vete h2{
+margin: 12% 0 0 0;
+font-size: 56px ;
+
+}
+.vete p{
+font-size: 20px;
+margin: 9% 0 0 0;
+}
+.vete{
+    float: right;
+    margin: -40% 8% ;
+    width: 40%;
+}
+.presss{
+    margin: 5% 0 0 0;
+    background-color:#42A1AB ;
+    padding:3% ;
+    width: 35%;
+    border-radius: 8%;
+    border: none;
+    color: #F7FEFF;
+    font-size: 24px;
+}
+.feedbacks h1{
+    margin: 10% 0 0 8%;
+    font-size: 56px;
+
+
+}
+.feedbacks p{
+    /* float: right; */
+    font-size: 24px;
+    margin: -3% 48% 0 60%;
+    width: 24%;
+    /* border: 2px solid; */
+}
+.feedbacks__comment{
+background-color: #F7FEFF;
+width: 40%;
+margin: 9%;
+}
+
+.feedbacks__comment i{
+    font-size: 96px;
+    color: #b1e5eb;
+    margin: 10% 0 0 8%;
+}
+.feedbacks__comment h4{
+font-size: 32px;
+margin: 10% 0 0 8%;
+}
+.feedbacks__comment p{
+font-size: 24px;
+/* border: 2px solid; */
+width: 75%;
+margin: 5% 0 0 8%;
+}
+.commentor h3{
+/* border: 2px solid; */
+width: 25%;
+margin: 8% 0 0 17%;
+}
+.commentor p{
+/* border: 2px solid; */
+width: 20%;
+margin: 2% 0 -2% 16%;
+color: #8587A5;
+}
+.commentor img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin:-9% 0 2% 4% ;
+
+}
+.ratings img{
+    width: 28%;
+    margin: 0 0 0 5%;
+    
+}
+.comment2 h3{
+    width: 25%;
+    margin: 8% 0 7% 16%;
+    /* border: 2px solid; */
+}
+
+.comment2 h4{
+    /* border: 2px solid; */
+    width: 65%;
+    margin: 0% 50% 0 8%;
+    font-size:30px;
+    
+}
+
+.commentor2 h3{
+    /* border: 2px solid; */
+    width:20%;
+    margin: 5% 0 0 16%;
+}
+.comment2 p{
+    border: 2px solid;
+    width: 61%;
+    margin: 2% 10% 0 10% ;
+    font-size:20px;
+    line-height: 30px;
+}
+.commentor2 img{
+    /* border: 2px solid; */
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.ratings2 img{
+    width: 28%;
+    margin: 0 0 0 5%;
+   
+}
+.commentor2 p{
+    width: 18%;
+    border: 2px solid;
+    margin: 8% 18% 0 25%;
+}
+.comment2{
+
+    float: right;
+    width: 40%;
+    height: 180%;
+    margin: -24% 0 0 -20%;
+    background-color: #F7FEFF;
+}
+
+.veterinarian{
+    margin-top: 10%;
+}
+.Qualified__vets h1{
+    margin:5% 0 5% 3%;
+    font-size:40px;
+    width:70%;
+}
+
+
+.llery img{
+    border-radius:50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 5% 0 5%;
+}
+.comment2{
+    margin-top: -43%;
+}
+.chrome{
+    display: flex;
+}
+.row{
+    display: flex;
+    gap: 8rem;
+    margin:0 10% 0 0 ;
+}
+.column{
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 12px; */
+    height: 500px;
+    width: 30%;
+    background-color: #FFFFFF;
+}
+.commentor{
+    display: flex;
+}
+.column h4{
+    padding: 8%;
+    margin: 10 0 0 0;
+}
+.column p{
+    padding: 8%;
+    margin: -15% 0 -10% 0;
+}
+.lan h3{
+    padding:8% ;
+}
+.reply p{
+    
+    /* border: 2px solid; */
+    width: 58%;
+    margin: 0 58% 5% 0;
+}
+.column img{
+    background-color: #F4F0FD;
+}
+.column2 img{
+    background-color: #E3FDFE;
+    
+}
+.column3 img{
+    background-color: #FEF5F0;
+}
+.subscribe__box{
+    background-color:#cbf2f6;
+    padding:8%;
+    width:50%;
+    margin:10% 0 5% 7%;
+    border-radius: 10px;
+}
+.subscribe__box h1{
+    font-size: 45px;
+    width:70%;
+    margin:-9% 0 0 15%;
+}
+.subscribe input{
+    width:60%;
+    padding:35px;
+    border-radius:12px;
+    font-size:18px;
+    border: 2px solid #fff;
+}
+.subscribe__button{
+    margin: 0 0 0 -18%;
+    width: 15%;
+    padding: 2%;
+    border:none;
+    border-radius: 9px;
+    background-color: #42A1AB;
+}
+.subscribe__box h1{
+    margin: 0 -10% 8% 0;
+
+}
+.subscribe__box{
+    padding: 8%;
+    align-content: center;
+    margin: 8% 0 0 20%;
+
+}
+.footer{
+    background: #eefffe;
+    height:45vh;
+     
+ }
+ .yourpet h5{
+    margin: 3% 0 0 7%;
+    width:10%;
+    font-size:15px;
+ }
+
+ .yourpet span{
+     color:#35B6C4;
+     font-size:50px
+ }
+
+ .yourpet p{
+    margin: 1% 0 0 7%;
+    color:#737e7c;
+    line-height:25px;
+    width:15%
+ }
+
+ .icons{
+     display: flex;
+     margin: 1% 4% 1% 7%;
+ }
+
+ .facebook i{
+     color:#17326d;
+     
+ }
+
+ .twitter i{
+     color: #35B6C4;
+    
+ }
+  
+ .google i{
+     color: rgb(195, 50, 50);
+ }
+
+ .linkedin{
+     color: #0d2a68;
+ }
+
+ .product h5{
+    margin: -11% 0 0 36%;
+    width:10%;
+    font-size:15px; 
+ }
+
+ .product p{
+    margin: 1% 0 0 36%;
+    color:#737e7c;
+    line-height:25px;
+    width:15%
+
+ }
+
+ .community h5{
+    margin: -14% 0 0 56%;
+    width:10%;
+    font-size:15px; 
+
+ }
+
+ .community p{
+    margin: 1% 0 0 56%;
+    color:#737e7c;
+    line-height:25px;
+    width:15% 
+ }
+
+ .about h5{
+    margin: -16% 0 0 76%;
+    width:10%;
+    font-size:15px;  
+ }
+
+ .about p{
+    margin: 1% 0 0 76%;
+    color:#737e7c;
+    line-height:25px;
+    width:15%
+ 
+ }
+ .about{
+     margin: 1% 0 0 0;
+ }
+ .community{
+     margin: 1% 0 0 0;
+ }
+ .icons{
+     gap: 1rem;
+ }
+
